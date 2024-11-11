@@ -1,0 +1,50 @@
+/* Asegura que la barra ocupe todo el ancho superior de la pantalla */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Fondo oscuro para toda la barra */
+  padding: 10px 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra ligera */
+}
+
+/* Estilo general para los ítems del menú */
+.navbar-item {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  padding: 0 10px;
+  color: #fff;
+  /* Texto blanco para mayor contraste */
+  transition: color 0.3s ease;
+}
+
+/* Icono de los ítems */
+.navbar-icon {
+  margin-right: 5px;
+  font-size: 2em;
+
+  /* Tamaño del icono */
+
+
+}
+
+/* Estilo para "BAZAAR BUY & SELL" */
+.navbar-item-start {
+  color: gray;
+  /* Dorado para destacar */
+}
+
+/* Estilo para "PURCHASES" */
+.navbar-item-end {
+  color: gray;
+  /* Verde claro */
+}
+
+/* Hover para ambos elementos */
+.navbar-item:hover {
+  color: black;
+}

@@ -1,0 +1,39 @@
+.homepage-container {
+    text-align: center;
+  }
+  
+  .homepage-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .homepage-icon-large {
+    font-size: 4em;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .homepage-content-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .homepage-icon-small {
+    font-size: 2em;
+    margin-right: 1em;
+  }
+  
+  @media (max-width: 768px) {
+    .homepage-content-responsive {
+      flex-direction: column;
+    }
+  
+    .homepage-icon-small {
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+  }

@@ -1,0 +1,17 @@
+.busqueda-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Alinea el contenido al principio y al final */
+    height: 100%;  /* Asegura que el contenedor ocupe toda la altura disponible */
+}
+
+.busqueda-input {
+    margin-bottom: 10px; /* Separa un poco el campo de texto del botón */
+}
+
+.busqueda-button {
+    margin-top: auto; /* Empuja el botón hacia abajo */
+}
+
+
